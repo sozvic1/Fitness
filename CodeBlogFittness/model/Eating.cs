@@ -9,6 +9,7 @@ namespace CodeBlogFitness.BL.model
     [Serializable]
     public class Eating
     {
+        public int Id { get; set; }
         public DateTime Moment { get; }
         public Dictionary<Food,double> Foods { get; }
         public User User { get;  }

@@ -8,6 +8,7 @@ namespace Fitness.model
     public class User
     {
         #region Свойства
+        public int Id { get; set; }
         public string Name { get;  }
         public Gender Gender { get; set; }     
         public double Height { get; set; }

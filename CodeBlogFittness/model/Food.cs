@@ -7,6 +7,7 @@ namespace CodeBlogFitness.BL.model
     [Serializable]
     public class Food
     {
+        public int Id { get; set; }
         public string Name { get; }
         public double Proteins { get; }
         public double Fets { get; }
